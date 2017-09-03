@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB70CADD1F5BF02B0068752A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70CADC1F5BF02B0068752A /* AppDelegate.swift */; };
+		FB70CADF1F5BF02B0068752A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70CADE1F5BF02B0068752A /* ViewController.swift */; };
+		FB70CAE21F5BF02B0068752A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB70CAE01F5BF02B0068752A /* Main.storyboard */; };
+		FB70CAE41F5BF02B0068752A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB70CAE31F5BF02B0068752A /* Assets.xcassets */; };
+		FB70CAE71F5BF02B0068752A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB70CAE51F5BF02B0068752A /* LaunchScreen.storyboard */; };
+		FB70CAF21F5BF02B0068752A /* TableViewExpandableAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70CAF11F5BF02B0068752A /* TableViewExpandableAnimationTests.swift */; };
+		FB70CAFD1F5BF02B0068752A /* TableViewExpandableAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70CAFC1F5BF02B0068752A /* TableViewExpandableAnimationUITests.swift */; };
+		FB70CB101F5BF4290068752A /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70CB0E1F5BF4290068752A /* MainTableViewCell.swift */; };
+		FB70CB111F5BF4290068752A /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB70CB0F1F5BF4290068752A /* MainTableViewCell.xib */; };
+		FB70CB141F5BFCC60068752A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70CB121F5BFCC60068752A /* MainViewController.swift */; };
+		FB70CB151F5BFCC60068752A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB70CB131F5BFCC60068752A /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB70CAEE1F5BF02B0068752A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB70CAD11F5BF02B0068752A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB70CAD81F5BF02B0068752A;
+			remoteInfo = TableViewExpandableAnimation;
+		};
+		FB70CAF91F5BF02B0068752A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB70CAD11F5BF02B0068752A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB70CAD81F5BF02B0068752A;
+			remoteInfo = TableViewExpandableAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB70CAD91F5BF02B0068752A /* TableViewExpandableAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExpandableAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB70CADC1F5BF02B0068752A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB70CADE1F5BF02B0068752A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB70CAE11F5BF02B0068752A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB70CAE31F5BF02B0068752A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB70CAE61F5BF02B0068752A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB70CAE81F5BF02B0068752A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB70CAED1F5BF02B0068752A /* TableViewExpandableAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExpandableAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB70CAF11F5BF02B0068752A /* TableViewExpandableAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExpandableAnimationTests.swift; sourceTree = "<group>"; };
+		FB70CAF31F5BF02B0068752A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB70CAF81F5BF02B0068752A /* TableViewExpandableAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExpandableAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB70CAFC1F5BF02B0068752A /* TableViewExpandableAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExpandableAnimationUITests.swift; sourceTree = "<group>"; };
+		FB70CAFE1F5BF02B0068752A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB70CB0E1F5BF4290068752A /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		FB70CB0F1F5BF4290068752A /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		FB70CB121F5BFCC60068752A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB70CB131F5BFCC60068752A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB70CAD61F5BF02B0068752A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70CAEA1F5BF02B0068752A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70CAF51F5BF02B0068752A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB70CAD01F5BF02B0068752A = {
+			isa = PBXGroup;
+			children = (
+				FB70CADB1F5BF02B0068752A /* TableViewExpandableAnimation */,
+				FB70CAF01F5BF02B0068752A /* TableViewExpandableAnimationTests */,
+				FB70CAFB1F5BF02B0068752A /* TableViewExpandableAnimationUITests */,
+				FB70CADA1F5BF02B0068752A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB70CADA1F5BF02B0068752A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB70CAD91F5BF02B0068752A /* TableViewExpandableAnimation.app */,
+				FB70CAED1F5BF02B0068752A /* TableViewExpandableAnimationTests.xctest */,
+				FB70CAF81F5BF02B0068752A /* TableViewExpandableAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB70CADB1F5BF02B0068752A /* TableViewExpandableAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FB70CB121F5BFCC60068752A /* MainViewController.swift */,
+				FB70CB131F5BFCC60068752A /* MainViewController.xib */,
+				FB70CB0E1F5BF4290068752A /* MainTableViewCell.swift */,
+				FB70CB0F1F5BF4290068752A /* MainTableViewCell.xib */,
+				FB70CADC1F5BF02B0068752A /* AppDelegate.swift */,
+				FB70CADE1F5BF02B0068752A /* ViewController.swift */,
+				FB70CAE01F5BF02B0068752A /* Main.storyboard */,
+				FB70CAE31F5BF02B0068752A /* Assets.xcassets */,
+				FB70CAE51F5BF02B0068752A /* LaunchScreen.storyboard */,
+				FB70CAE81F5BF02B0068752A /* Info.plist */,
+			);
+			path = TableViewExpandableAnimation;
+			sourceTree = "<group>";
+		};
+		FB70CAF01F5BF02B0068752A /* TableViewExpandableAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB70CAF11F5BF02B0068752A /* TableViewExpandableAnimationTests.swift */,
+				FB70CAF31F5BF02B0068752A /* Info.plist */,
+			);
+			path = TableViewExpandableAnimationTests;
+			sourceTree = "<group>";
+		};
+		FB70CAFB1F5BF02B0068752A /* TableViewExpandableAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB70CAFC1F5BF02B0068752A /* TableViewExpandableAnimationUITests.swift */,
+				FB70CAFE1F5BF02B0068752A /* Info.plist */,
+			);
+			path = TableViewExpandableAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB70CAD81F5BF02B0068752A /* TableViewExpandableAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70CB011F5BF02B0068752A /* Build configuration list for PBXNativeTarget "TableViewExpandableAnimation" */;
+			buildPhases = (
+				FB70CAD51F5BF02B0068752A /* Sources */,
+				FB70CAD61F5BF02B0068752A /* Frameworks */,
+				FB70CAD71F5BF02B0068752A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewExpandableAnimation;
+			productName = TableViewExpandableAnimation;
+			productReference = FB70CAD91F5BF02B0068752A /* TableViewExpandableAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB70CAEC1F5BF02B0068752A /* TableViewExpandableAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70CB041F5BF02B0068752A /* Build configuration list for PBXNativeTarget "TableViewExpandableAnimationTests" */;
+			buildPhases = (
+				FB70CAE91F5BF02B0068752A /* Sources */,
+				FB70CAEA1F5BF02B0068752A /* Frameworks */,
+				FB70CAEB1F5BF02B0068752A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB70CAEF1F5BF02B0068752A /* PBXTargetDependency */,
+			);
+			name = TableViewExpandableAnimationTests;
+			productName = TableViewExpandableAnimationTests;
+			productReference = FB70CAED1F5BF02B0068752A /* TableViewExpandableAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB70CAF71F5BF02B0068752A /* TableViewExpandableAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70CB071F5BF02B0068752A /* Build configuration list for PBXNativeTarget "TableViewExpandableAnimationUITests" */;
+			buildPhases = (
+				FB70CAF41F5BF02B0068752A /* Sources */,
+				FB70CAF51F5BF02B0068752A /* Frameworks */,
+				FB70CAF61F5BF02B0068752A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB70CAFA1F5BF02B0068752A /* PBXTargetDependency */,
+			);
+			name = TableViewExpandableAnimationUITests;
+			productName = TableViewExpandableAnimationUITests;
+			productReference = FB70CAF81F5BF02B0068752A /* TableViewExpandableAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB70CAD11F5BF02B0068752A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Apinun Wongintawang";
+				TargetAttributes = {
+					FB70CAD81F5BF02B0068752A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L52U2QMKSA;
+						ProvisioningStyle = Automatic;
+					};
+					FB70CAEC1F5BF02B0068752A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L52U2QMKSA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB70CAD81F5BF02B0068752A;
+					};
+					FB70CAF71F5BF02B0068752A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L52U2QMKSA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB70CAD81F5BF02B0068752A;
+					};
+				};
+			};
+			buildConfigurationList = FB70CAD41F5BF02B0068752A /* Build configuration list for PBXProject "TableViewExpandableAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB70CAD01F5BF02B0068752A;
+			productRefGroup = FB70CADA1F5BF02B0068752A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB70CAD81F5BF02B0068752A /* TableViewExpandableAnimation */,
+				FB70CAEC1F5BF02B0068752A /* TableViewExpandableAnimationTests */,
+				FB70CAF71F5BF02B0068752A /* TableViewExpandableAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB70CAD71F5BF02B0068752A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70CB151F5BFCC60068752A /* MainViewController.xib in Resources */,
+				FB70CAE71F5BF02B0068752A /* LaunchScreen.storyboard in Resources */,
+				FB70CAE41F5BF02B0068752A /* Assets.xcassets in Resources */,
+				FB70CAE21F5BF02B0068752A /* Main.storyboard in Resources */,
+				FB70CB111F5BF4290068752A /* MainTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70CAEB1F5BF02B0068752A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70CAF61F5BF02B0068752A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB70CAD51F5BF02B0068752A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70CADF1F5BF02B0068752A /* ViewController.swift in Sources */,
+				FB70CB101F5BF4290068752A /* MainTableViewCell.swift in Sources */,
+				FB70CADD1F5BF02B0068752A /* AppDelegate.swift in Sources */,
+				FB70CB141F5BFCC60068752A /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70CAE91F5BF02B0068752A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70CAF21F5BF02B0068752A /* TableViewExpandableAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70CAF41F5BF02B0068752A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70CAFD1F5BF02B0068752A /* TableViewExpandableAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB70CAEF1F5BF02B0068752A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB70CAD81F5BF02B0068752A /* TableViewExpandableAnimation */;
+			targetProxy = FB70CAEE1F5BF02B0068752A /* PBXContainerItemProxy */;
+		};
+		FB70CAFA1F5BF02B0068752A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB70CAD81F5BF02B0068752A /* TableViewExpandableAnimation */;
+			targetProxy = FB70CAF91F5BF02B0068752A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB70CAE01F5BF02B0068752A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70CAE11F5BF02B0068752A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB70CAE51F5BF02B0068752A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70CAE61F5BF02B0068752A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB70CAFF1F5BF02B0068752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB70CB001F5BF02B0068752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB70CB021F5BF02B0068752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = TableViewExpandableAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.customview.TableViewExpandableAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB70CB031F5BF02B0068752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = TableViewExpandableAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.customview.TableViewExpandableAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FB70CB051F5BF02B0068752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = TableViewExpandableAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.customview.TableViewExpandableAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewExpandableAnimation.app/TableViewExpandableAnimation";
+			};
+			name = Debug;
+		};
+		FB70CB061F5BF02B0068752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = TableViewExpandableAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.customview.TableViewExpandableAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewExpandableAnimation.app/TableViewExpandableAnimation";
+			};
+			name = Release;
+		};
+		FB70CB081F5BF02B0068752A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = TableViewExpandableAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.customview.TableViewExpandableAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableViewExpandableAnimation;
+			};
+			name = Debug;
+		};
+		FB70CB091F5BF02B0068752A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L52U2QMKSA;
+				INFOPLIST_FILE = TableViewExpandableAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smb.customview.TableViewExpandableAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableViewExpandableAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB70CAD41F5BF02B0068752A /* Build configuration list for PBXProject "TableViewExpandableAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70CAFF1F5BF02B0068752A /* Debug */,
+				FB70CB001F5BF02B0068752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70CB011F5BF02B0068752A /* Build configuration list for PBXNativeTarget "TableViewExpandableAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70CB021F5BF02B0068752A /* Debug */,
+				FB70CB031F5BF02B0068752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70CB041F5BF02B0068752A /* Build configuration list for PBXNativeTarget "TableViewExpandableAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70CB051F5BF02B0068752A /* Debug */,
+				FB70CB061F5BF02B0068752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70CB071F5BF02B0068752A /* Build configuration list for PBXNativeTarget "TableViewExpandableAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70CB081F5BF02B0068752A /* Debug */,
+				FB70CB091F5BF02B0068752A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB70CAD11F5BF02B0068752A /* Project object */;
+}
